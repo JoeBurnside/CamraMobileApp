@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#98e698"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Home">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="0dp"
+            android:id="@+id/linearLayout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Logo"
+                android:src="@drawable/camranottinghamlogo"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".50">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".50"
+                android:text="Find a pub"
+                android:id="@+id/buttonFind"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:enabled="true"
+                android:background="@drawable/button_border"
+                android:singleLine="false"
+                android:textSize="35sp"
+                android:contentDescription="Find a pub"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".50"
+                android:text="Map"
+                android:id="@+id/buttonMap"
+                android:layout_alignTop="@+id/buttonFind"
+                android:layout_toRightOf="@+id/buttonFind"
+                android:layout_toEndOf="@+id/buttonFind"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_border"
+                android:textSize="35sp"
+                android:contentDescription="Map"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".50">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".50"
+                android:text="Events"
+                android:id="@+id/buttonEvents"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_border"
+                android:textSize="35sp"
+                android:contentDescription="Events"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".50"
+                android:text="About"
+                android:id="@+id/buttonAbout"
+                android:layout_alignTop="@+id/buttonEvents"
+                android:layout_toRightOf="@+id/buttonEvents"
+                android:layout_toEndOf="@+id/buttonEvents"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_border"
+                android:textSize="35sp"
+                android:contentDescription="About"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
