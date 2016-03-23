@@ -49,7 +49,7 @@
                 android:layout_margin="10dp"
                 android:textColor="#000000"
                 android:enabled="true"
-                android:background="@drawable/button_border"
+                android:background="@drawable/button_search"
                 android:singleLine="false"
                 android:textSize="35sp"
                 android:contentDescription="Find a pub"/>
@@ -64,7 +64,7 @@
                 android:layout_toRightOf="@+id/buttonFind"
                 android:layout_toEndOf="@+id/buttonFind"
                 android:layout_margin="10dp"
-                android:background="@drawable/button_border"
+                android:background="@drawable/button_map"
                 android:textSize="35sp"
                 android:contentDescription="Map"/>
         </LinearLayout>
@@ -85,7 +85,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_margin="10dp"
-                android:background="@drawable/button_border"
+                android:background="@drawable/button_weekly"
                 android:textSize="35sp"
                 android:contentDescription="Events"/>
 
@@ -99,7 +99,7 @@
                 android:layout_toRightOf="@+id/buttonEvents"
                 android:layout_toEndOf="@+id/buttonEvents"
                 android:layout_margin="10dp"
-                android:background="@drawable/button_border"
+                android:background="@drawable/button_about"
                 android:textSize="35sp"
                 android:contentDescription="About"/>
         </LinearLayout>
